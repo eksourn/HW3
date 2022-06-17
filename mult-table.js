@@ -33,11 +33,6 @@
         document.getElementById('err-empty').innerHTML="Error: Empty input!";
         return false;
      }
-    // Out of range values
-   /* if (minCol >= -50 || maxCol <= 50 || minRow >= -50 || maxRow <= 50) {
-        document.getElementById('err-empty').innerHTML="Error: Out of range values!";
-        return false;
-    }*/
     //  If mininum number is larger than maximum for row
     if (minRow > maxRow) {
         var temp = minRow;
